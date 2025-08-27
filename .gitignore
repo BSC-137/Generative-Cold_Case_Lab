@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.env
+venv/
+.venv/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Generated game files
+cases/
+
+# Logs / temp
+*.log
+.DS_Store
+Thumbs.db
+
+# Ollama / models (don’t commit large local model files)
+ollama/
